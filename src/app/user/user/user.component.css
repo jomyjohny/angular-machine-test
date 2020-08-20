@@ -1,0 +1,12 @@
+#userSection{
+    display: flex;
+    padding: 15px;
+}
+#userSection .userSectionLeftSide{
+    width: 50%;
+}
+#userSection .userSectionRightSide{
+    width: 50%;
+    height: 85vh;
+    overflow-y: auto;
+}

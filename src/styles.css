@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#authentication mat-card angular2-multiselect .cuppa-dropdown .selected-list .c-btn{
+    width: auto;
+}
+#authentication mat-card angular2-multiselect .pure-checkbox.select-all{
+    display: none;
+}
+#authentication mat-card .mat-form-field{
+    width: 100%;
+}
+#adminPanel {
+    padding: 15px;
+}
+#adminPanel .leftSideMenu ul{
+    list-style: none;
+    padding: 0px;
+}
+control-messages small.text-danger {
+    color: #fc4b6c !important;
+    font-size: 12px !important;
+    position: relative !important;
+    top: -12px !important;
+}
